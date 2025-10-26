@@ -5,7 +5,7 @@
   font-family: sans-serif;
 }
 
-body{
+body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,48 +13,28 @@ body{
   background-color: #7CA982;
 }
 
-.container{
+.container {
   width: 600px;
   background: #fff;
   border-radius: 15px;
   padding: 30px 30px 25px;
 }
-.firstDivision h1{
+
+.firstDivision h1 {
   text-align: center;
   margin-bottom: 15px;
 }
 
-.secondDivision .quote-area{
-display: flex;
-justify-content: center;
-}
-
-.quote-area i{
-  font-size: 15px;
-}
+.secondDivision {
+  margin: 35px 35px;
+} 
 
 .quote-area i:first-child {
   margin: 3px 10px 0 0;
 }
 
-.quote-area i:last-child {
-  display: flex;
-  align-items: flex-end;
-  margin: 0 0 3px 10px;
-}
-
-.quote-area .quote{
-  font-size: larger;
-text-align: center;
-word-break: break-all;
-}
-
-.secondDivision .author{
-  display: flex;
-  font-size: 18px;
-  font-style: italic;
-  margin-top: 30px;
-  justify-content: flex-end;
+.quote-area i:last-of-type {
+  margin: 30px 5px 3px 10px;
 }
 
 .author span:first-child {
@@ -62,22 +42,24 @@ word-break: break-all;
   margin: 15px 15px;
 }
 
-.features{
-    display: flex;
+.features {
+  display: flex;
   align-items: center;
   margin-top: 20px;
   justify-content: space-between;
 }
-.thirdDivision{
+
+.thirdDivision {
   border-top: 1px solid #ccc;
 }
 
-.features ul{
+.features ul {
   display: flex;
   align-items: center;
   gap: 5px;
 }
- .features ul li{
+
+.features ul li {
   list-style: none;
   margin: 0 5px;
   height: 45px;
@@ -90,13 +72,14 @@ word-break: break-all;
   border-radius: 50%;
   border: 2px solid #000000;
   transition: all 0.3s ease;
- }
+}
+
 .features ul li:hover {
   color: #7CA982;
   background: #000000;
 }
 
- .features button{
+.features button {
   display: flex;
   align-items: flex-end;
   justify-items: flex-end;
@@ -104,9 +87,56 @@ word-break: break-all;
   border-radius: 25px;
   background: #fff;
   color: #000;
- }
- 
- .features button:hover{
+}
+
+.features button:hover {
   background: #000;
   color: #7CA982;
- }
+}
+
+.secondDivision .author {
+  display: flex;
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  justify-content: flex-end;
+}
+
+.secondDivision span {
+  justify-content: flex-end;
+  display: flex;
+  align-items: flex-end;
+  gap: 10px;
+}
+/* here */
+.secondDivision .quote-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.quote-area i {
+  font-size: 15px;
+  color: #333;
+  align-self: flex-start;
+}
+
+.quote-area .quote {
+  font-size: 20px;
+  font-weight: 500;
+  flex: 1 1 100%;
+  text-align: center;
+}
+
+.secondDivision .author {
+  display: flex;
+  justify-content: center;
+}
+
+.author .name {
+  font-size: 16px;
+  font-style: italic;
+  color: #444;
+}

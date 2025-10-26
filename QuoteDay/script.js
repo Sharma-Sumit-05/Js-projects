@@ -9,6 +9,8 @@ const twitterBtn = document.querySelector(".twitter");
 function randomQuote(){
  quoteBtn.innerHTML = "Loading Quote";
  quoteBtn.disabled = true;
+quoteBtn.style.border = "2px solid black";
+
 
  setTimeout(() => {
    let quoteStorage = quoteList[Math.floor(Math.random() * quoteList.length)];
