@@ -1,0 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+}
+body{
+  display: grid;
+  place-items: center;
+  background: #FCDDF2,#B3B3F1,#DCB6D5,#CEC2FF;
+}
+.container{
+  width: 330px;
+  background-color: #B3B3F1;
+  padding: 40px 40px;
+  border-radius: 10px;
+  box-shadow: -3px -3px 7px #CEC2FF,
+             2px 2px 5px rgba(3, 16, 40, 0.288);
+}
+form .result{
+   height: 60px;
+   width: 100%;
+    background-color: #B3B3F1;
+  border-radius: 5px;
+box-shadow: inset -3px -3px 7px #ffffff73,
+            inset 2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+ .result input{
+  height: 100%;
+  width: 100%;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 30px;
+  font-family: 'poppins',sans-serif;
+  font-weight: 500;
+  padding: 0 20px;
+  text-align: right;
+  color: #595959;
+  pointer-events: none;
+ }
+ form .buttons{
+  text-align: center;
+  padding: 30px 0px 0px;
+ }
+
+ .buttons input[type = 'button']{
+height: 50px;
+width: 50px;
+font-size: 23px;
+margin: 4px;
+border: none;
+outline: none;
+color: #000;
+ background-color: #B3B3F1;
+  border-radius: 5px;
+box-shadow:  -3px -3px 7px #ffffff73,
+             2px 2px 5px rgba(94, 104, 121, 0.288);
+}
+.buttons .row-top input[type = 'button']{
+height: 50px;
+width: 110px;
+text-align: center;
+}
+
+.buttons input[type = 'button']:focus{
+  color: #7A306C;
+  transform: scale(0.9);
+box-shadow: inset -3px -3px 7px #ffffff73,
+           inset  2px 2px 5px rgba(94, 104, 121, 0.288);
+}
