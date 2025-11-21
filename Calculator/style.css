@@ -39,7 +39,7 @@ box-shadow: inset -3px -3px 7px #ffffff73,
   font-weight: 500;
   padding: 0 20px;
   text-align: right;
-  color: #595959;
+  color: #000;
   pointer-events: none;
  }
  form .buttons{
