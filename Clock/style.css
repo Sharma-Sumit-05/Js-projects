@@ -104,9 +104,13 @@ section.dark .time .time-colon .time-text{
 font-size: 30px;
 font-weight: 600;
 }
-section.dark .time .time-text .num, section.dark .time .colon{
-color: #fff;
-}
+
+ section.dark .time-text{
+  color: #fff;
+ }
+ section.dark .time-colon{
+  color: #fff;
+ }
 section.dark .time .time-colon .time-text{
   background: #24292d;
   }
